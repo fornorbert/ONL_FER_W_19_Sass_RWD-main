@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-1 {
+    width: 8.3333333333%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-2 {
+    width: 16.6666666667%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-3 {
+    width: 25%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-4 {
+    width: 33.3333333333%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-5 {
+    width: 41.6666666667%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-6 {
+    width: 50%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-7 {
+    width: 58.3333333333%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-8 {
+    width: 66.6666666667%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-9 {
+    width: 75%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-10 {
+    width: 83.3333333333%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-11 {
+    width: 91.6666666667%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .container .row .col-12 {
+    width: 100%;
+    min-height: 1px;
+    padding: 0 7.5px;
+  }
+}
+
+.col {
+  border: 2px solid red;
+  width: 50rem;
+  height: 50rem;
+}
+
+@media screen and (min-width: 567px) {
+  .container .rev .row {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+.container .col-2 {
+  width: 50%;
+  height: 50%;
+  border: 1px solid #2FEB73;
+}
+/*# sourceMappingURL=main.css.map */

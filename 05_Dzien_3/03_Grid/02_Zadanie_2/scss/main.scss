@@ -1,0 +1,49 @@
+@use "sass:math";
+
+$containerWidth: 980px;
+$columns: 12;
+$gutter: 15px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: $containerWidth;
+  margin: 0 auto;
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+
+    @for $i from 1 through $columns {
+      .col-#{$i} {
+        width: math.div(100%, $columns) * $i;
+        min-height: 50px;
+        padding: 0 math.div($gutter, 2);
+      }
+    }
+  }
+}
+
+.col-12{
+background-color: darkviolet;
+}
+.left{
+  background-color: aqua;
+}
+.middle{
+background-color: yellow;
+}
+.right{
+  background-color: aqua;
+}
+.row2{
+  height: 50px;
+  padding: $gutter;
+}
+.foot{
+  background-color: #2FEB73;
+}

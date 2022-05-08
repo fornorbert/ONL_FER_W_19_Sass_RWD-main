@@ -1,0 +1,21 @@
+$primary-color: cornflowerblue;
+$accent-color: tomato;
+$main-width: 1000px;
+.main-width {
+  &:first-child {
+    color: red;
+  }
+}
+
+.menu {
+  display: flex;
+  background-color: $primary-color;
+
+  li {
+    padding-left: 10px;
+    list-style: none;
+  }
+}
+header{
+  border: 1px solid $accent-color;
+}

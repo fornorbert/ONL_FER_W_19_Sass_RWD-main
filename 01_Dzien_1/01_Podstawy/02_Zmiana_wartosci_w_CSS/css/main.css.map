@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAAA;EACE,aAAA;EACA,oCAAA;ACCF","file":"main.css","sourcesContent":["h1{\n  padding: 30px;\n  font-family: \"Patrick Hand\", cursive;\n}","h1 {\n  padding: 30px;\n  font-family: \"Patrick Hand\", cursive;\n}"]}

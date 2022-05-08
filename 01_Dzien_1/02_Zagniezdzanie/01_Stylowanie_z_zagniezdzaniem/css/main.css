@@ -1,0 +1,17 @@
+.main-width:first-child {
+  color: red;
+}
+
+.menu {
+  display: flex;
+  background-color: cornflowerblue;
+}
+.menu li {
+  padding-left: 10px;
+  list-style: none;
+}
+
+header {
+  border: 1px solid tomato;
+}
+/*# sourceMappingURL=main.css.map */

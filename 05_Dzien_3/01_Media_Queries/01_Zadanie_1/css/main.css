@@ -1,0 +1,9 @@
+body {
+  background-color: yellow;
+}
+@media screen and (min-width: 420px) {
+  body {
+    background-color: blue;
+  }
+}
+/*# sourceMappingURL=main.css.map */

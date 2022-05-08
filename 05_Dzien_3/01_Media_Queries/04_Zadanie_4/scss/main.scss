@@ -1,0 +1,29 @@
+div {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  margin-left: 10px;
+  float: left;
+
+  @media screen and (max-width: 900px) {
+   display: flex;
+
+  }
+}
+
+//////
+//body {
+//  @media (min-width: 900px) {
+//    width: 100%;
+//    display: flex;
+//  }
+//
+//  div {
+//    width: 300px;
+//    height: 300px;
+//    color: red;
+//    margin-left: 10px;
+//    background-color: aqua;
+//
+//  }
+}

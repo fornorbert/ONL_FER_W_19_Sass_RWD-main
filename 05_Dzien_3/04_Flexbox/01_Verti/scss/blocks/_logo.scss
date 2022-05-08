@@ -1,0 +1,32 @@
+.logo {
+  text-align: center;
+  margin-top: 1.5rem;
+
+  @media screen and (min-width: 992px) {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    height: 100%;
+  }
+
+  &__brand {
+    font-family: "Oleo Script", cursive;
+    background-color: $primaryColor;
+    color: white;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: $borderRadius;
+  }
+
+  &__slogan {
+    margin-top: 0.5rem;
+    font-weight: 800;
+    font-size: 0.8125rem;
+
+    @media screen and (min-width: 992px) {
+      margin-top: 0;
+      margin-left: 1rem;
+    }
+  }
+}

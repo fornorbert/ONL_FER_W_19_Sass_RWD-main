@@ -1,0 +1,13 @@
+//@use "sass:color";
+//
+//$color: #f00f00;
+//@for $i from 1 through 6{
+//@debug $color;
+//  h#{$i}  {
+//    color: $color
+//  }
+//}
+//$color.scale($color, $lightness: 15%)
+
+$new-red: color.scale(red, $lightness: 40%);
+$t: #900000;

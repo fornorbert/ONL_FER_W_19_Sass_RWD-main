@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .row .col-1 {
+  width: 8.3333333333%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+.container .row .col-2 {
+  width: 16.6666666667%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+.container .row .col-3 {
+  width: 25%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+.container .row .col-4 {
+  width: 33.3333333333%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+.container .row .col-5 {
+  width: 41.6666666667%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+.container .row .col-6 {
+  width: 50%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+.container .row .col-7 {
+  width: 58.3333333333%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+.container .row .col-8 {
+  width: 66.6666666667%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+.container .row .col-9 {
+  width: 75%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+.container .row .col-10 {
+  width: 83.3333333333%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+.container .row .col-11 {
+  width: 91.6666666667%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+.container .row .col-12 {
+  width: 100%;
+  min-height: 50px;
+  padding: 0 7.5px;
+}
+
+.col-12 {
+  background-color: darkviolet;
+}
+
+.left {
+  background-color: aqua;
+}
+
+.middle {
+  background-color: yellow;
+}
+
+.right {
+  background-color: aqua;
+}
+
+.row2 {
+  height: 50px;
+  padding: 15px;
+}
+
+.foot {
+  background-color: #2FEB73;
+}
+/*# sourceMappingURL=main.css.map */

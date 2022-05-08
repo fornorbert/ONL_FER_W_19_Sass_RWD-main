@@ -1,0 +1,13 @@
+body {
+  background-color: #aabbcc;
+}
+
+.main-width {
+  background-color: aqua;
+  color: #80083e;
+}
+
+footer .main-width {
+  background-color: #54860a;
+}
+/*# sourceMappingURL=main.css.map */

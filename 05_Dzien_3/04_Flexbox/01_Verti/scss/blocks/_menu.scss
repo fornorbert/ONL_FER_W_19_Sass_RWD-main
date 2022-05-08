@@ -1,0 +1,107 @@
+.menu {
+  &__list {
+    transition: all 0.3s linear;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0 1rem;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+
+    @media screen and (min-width: 992px) {
+      overflow: visible;
+      max-height: unset;
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      height: 100%;
+      position: static;
+    }
+  }
+
+  &__item {
+    line-height: 1.8;
+  }
+
+  &__link {
+    color: $textColor;
+    text-decoration: none;
+    font-weight: 800;
+
+    @media screen and (min-width: 992px) {
+      padding: 0.5rem;
+      border-radius: $borderRadius;
+    }
+
+    &:hover {
+      @media screen and (min-width: 992px) {
+        background-color: #fff;
+      }
+    }
+
+    &--active {
+      @media screen and (min-width: 992px) {
+        background-color: $textColor;
+        color: white;
+      }
+      &:hover {
+        @media screen and (min-width: 992px) {
+          background-color: $textColor;
+        }
+      }
+    }
+  }
+  &__burger {
+    background-color: lightgrey;
+    border-radius: $borderRadius;
+    padding: 0.5rem;
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+    transition: background-color 0.3s linear;
+    cursor: pointer;
+
+    @media screen and (min-width: 992px) {
+      display: none;
+    }
+
+    span {
+      display: block;
+      width: 1.5rem;
+      height: 2px;
+      background-color: grey;
+      margin-bottom: 0.5rem;
+      transition: all 0.3s linear;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+input#menu:checked {
+  & ~ div {
+    .menu__list {
+      max-height: 10rem;
+      padding: 1rem;
+    }
+    .menu__burger {
+      background-color: $primaryColor;
+
+      span {
+        background-color: white;
+        &:nth-child(1) {
+          transform: translateY(10px) rotate(225deg);
+        }
+        &:nth-child(2) {
+          transform: rotate(-225deg);
+        }
+        &:nth-child(3) {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}

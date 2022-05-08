@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAEA;EACE,UAHc;ACEhB;;ADGA;EACE,sBALW;ACKb","file":"main.css","sourcesContent":["$primary-color: red;\n$body-color: gray;\nh1{\n  color: $primary-color;\n}\nbody{\n  background-color: $body-color;\n}","h1 {\n  color: red;\n}\n\nbody {\n  background-color: gray;\n}"]}

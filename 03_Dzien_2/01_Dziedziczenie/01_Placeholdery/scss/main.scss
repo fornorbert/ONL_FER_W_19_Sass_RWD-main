@@ -1,0 +1,22 @@
+//.test-mixin{
+//
+//}
+
+%body{
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px;
+}
+.success{
+  @extend %body;
+  background-color: #08a6e4;
+}
+.error{
+  @extend %body;
+  background-color: #2FEB73;
+}
+.info{
+  @extend %body;
+  background-color:red;
+}
